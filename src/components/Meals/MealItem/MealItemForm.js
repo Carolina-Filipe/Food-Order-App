@@ -9,6 +9,7 @@ const MealItemForm = (props) => {
       <Input
         label="Amount"
         input={{
+          key: "number",
           id: "amount",
           type: "number",
           min: "1",
